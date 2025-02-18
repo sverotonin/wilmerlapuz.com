@@ -1,5 +1,5 @@
 // src/App.jsx
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./index.css";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     window.open(facebookUrl, "_blank");
   };
 
-  const copyUrl = (e) => {
+  const copyUrl = (e: any) => {
     e.stopPropagation();
     navigator.clipboard.writeText(facebookUrl);
     setIsCopied(true);
