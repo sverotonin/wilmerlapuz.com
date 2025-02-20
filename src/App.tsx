@@ -5,7 +5,7 @@ import "./index.css";
 function App() {
   const [isHovering, setIsHovering] = useState(false);
   const [isCopied, setIsCopied] = useState(false);
-  const facebookUrl = "https://www.facebook.com/profile.php?id=61572930857654";
+  const facebookUrl = "https://www.facebook.com/wilmer.lapuz.3";
 
   const handleQrClick = () => {
     window.open(facebookUrl, "_blank");
