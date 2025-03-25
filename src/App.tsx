@@ -135,7 +135,7 @@ function App() {
         {/* Minimal signature */}
         <p className="mt-8 text-center text-gray-600 text-xs tracking-wider">
           <li>site WIP</li>
-          <li>next update 20250227</li>
+          <li>next update 20250401</li>
           <li>来てくれてありがとう</li>
           <li>♡</li>
         </p>
